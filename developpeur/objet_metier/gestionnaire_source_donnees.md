@@ -111,6 +111,7 @@ Les signes de comparaison sont :
 - > Ne seront affichés dans la liste enfant que les enregistrements dont la valeur est supérieure à l'attribut de filtre parent. 
 - > Ne seront affichés dans la liste enfant que les enregistrements dont la valeur est inférieure à l'attribut de filtre parent. 
 
+
  
 **Attendre le parent **
 
