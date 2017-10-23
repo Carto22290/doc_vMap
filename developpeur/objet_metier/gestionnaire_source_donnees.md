@@ -84,7 +84,7 @@ Définir ensuite le libellé et la clé des occurences de la liste :
 
 ![](../../images/GSD_3.png)
 
-Dans l'exemple ci-dessus, on souhaite pouvoir sélectionner dans le formulaire les utilisateurs dont les noms (colonne name) seront affichés dans une liste ". La clé (colonne login) de chaque utilisateur est la valeur rééllement utilisée. 
+Dans l'exemple ci-dessus, on souhaite pouvoir sélectionner dans le formulaire les utilisateurs dont les noms (colonne name) seront affichés dans une liste "utilisateurs". La clé (colonne login) de chaque utilisateur est la valeur rééllement utilisée. 
 
 ### 2.3 Options avancées = affiner l'affichage des listes
 
