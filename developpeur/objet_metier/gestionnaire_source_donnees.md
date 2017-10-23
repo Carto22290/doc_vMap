@@ -114,6 +114,7 @@ Les signes de comparaison sont :
  
 **Attendre le parent **
 
+
 Pour forcer l'affichage de la liste des éléments enfants uniquement lorsqu'un élément parent est sélectionné, il faut cocher la case 'Attendre le parent'. Ainsi, si aucun élément parent n'est sélectionné, aucun élément enfant n'apparaîtra dans la liste. 
  
 
