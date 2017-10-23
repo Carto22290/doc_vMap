@@ -108,8 +108,8 @@ Après avoir défini quel est l'élément  parent, il faut définir le champ enf
 Les signes de comparaison sont : 
 
 - = Egalité parfaite entre le champ parent et le champ enfant
-- > Ne seront affichés dans la liste enfant que les enregistrements dont la valeur est supérieure à l'attribut de filtre parent. 
-- > Ne seront affichés dans la liste enfant que les enregistrements dont la valeur est inférieure à l'attribut de filtre parent. 
+- \> Ne seront affichés dans la liste enfant que les enregistrements dont la valeur est supérieure à l'attribut de filtre parent. 
+- \< Ne seront affichés dans la liste enfant que les enregistrements dont la valeur est inférieure à l'attribut de filtre parent. 
 
 
  
