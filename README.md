@@ -1,2 +1,2 @@
 # vMapDoc
-Documentation de l'application vmap de Veremes
+Documentation de l'application vmap de Veremes.
