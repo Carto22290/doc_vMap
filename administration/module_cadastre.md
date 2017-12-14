@@ -51,6 +51,17 @@ Exemple :
 
 Si ces informations sont mal renseignées, la fiche d'urbanisme d'une parcelle peut ne pas se générer correctement.
 
+Il est aussi possible d'afficher ces informations sous forme de tableau de la manière suivante:
+- $properties["cadastre"]["fiche_urb"]["intersect"]["array_views"][0]["nom_vue"]["..."] = "Libellé champ 1";
+- $properties["cadastre"]["fiche_urb"]["intersect"]["array_views"][0]["nom_vue"]["..."] = "Libellé champ 2";
+- $properties["cadastre"]["fiche_urb"]["intersect"]["array_views"][0]["nom_vue"]["..."] = "Libellé champ 3";
+- $properties["cadastre"]["fiche_urb"]["intersect"]["array_views"][1]["nom_vue 2"]["..."] = "Libellé champ 1";
+- $properties["cadastre"]["fiche_urb"]["intersect"]["array_views"][1]["nom_vue 2"]["..."] = "Libellé champ 2";
+- $properties["cadastre"]["fiche_urb"]["intersect"]["array_views"][1]["nom_vue 2"]["..."] = "Libellé champ 3";
+- $properties["cadastre"]["fiche_urb"]["intersect"]["array_views"][2]["nom_vue 3"]["..."] = "Libellé champ 1";
+- $properties["cadastre"]["fiche_urb"]["intersect"]["array_views"][2]["nom_vue 3"]["..."] = "Libellé champ 2";
+- $properties["cadastre"]["fiche_urb"]["intersect"]["array_views"][2]["nom_vue 3"]["..."] = "Libellé champ 3";
+
 #### cadastre.fiche_urb.intersect.tolerance
 Surface minimum à partir de laquelle une intersection est prise en compte (en %).
 
