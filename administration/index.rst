@@ -8,3 +8,4 @@ Administration de vMap
  configuration
  calques_cartes
  mapserver
+ module_cadastre
