@@ -23,7 +23,7 @@ Exemple :
 - $properties["cadastre"]["descr_parcel"]["intersect"]["views"]["nom_vue"]["..."] = "Libellé champ"
 
 - $properties["cadastre"]["descr_parcel"]["intersect"]["views"]["..."]["title"] = "Le titre"
-- etc...
+- etc....
 
 
 Si ces informations sont mal renseignées, la fiche descriptive d'une parcelle peut ne pas se générer correctement.
