@@ -14,7 +14,7 @@ Properties génériques pour obtenir des informations sur les intersections.
 Fonctionne avec des objets ponctuels (POINT), linéaires (LINE) et polygones (POLYGON).
 Fonctionne avec une ou plusieurs vues et/ou une ou plusieurs tables.
 
-Exemple :
+**Exemple :**
 - $properties["cadastre"]["descr_parcel"]["intersect"]["views"]["nom_vue"]["title"] = "Le titre"
 - $properties["cadastre"]["descr_parcel"]["intersect"]["views"]["nom_vue"]["type"]= "POLYGON"
 - $properties["cadastre"]["descr_parcel"]["intersect"]["views"]["nom_vue"]["intersect"] = "Libellé surface inter."
@@ -23,10 +23,40 @@ Exemple :
 - $properties["cadastre"]["descr_parcel"]["intersect"]["views"]["nom_vue"]["..."] = "Libellé champ"
 
 - $properties["cadastre"]["descr_parcel"]["intersect"]["views"]["..."]["title"] = "Le titre"
-- etc....
-
+- etc...
 
 Si ces informations sont mal renseignées, la fiche descriptive d'une parcelle peut ne pas se générer correctement.
+
+** Exemple de personnalisation d'une intersection comprenant un lien href :**
+
+1- Construction du lien dans une vue de postgresql
+
+<!--Pour réaliser un lien dans les intersections il est indispensable de construire, dans une vue, le lien sous la forme '[link href="URL" target="\_blank"]Libellé[/link]' as "link"-->
+
+L'affichage d'un lien dans les intersections se construit dans une vue de postgresql sous la forme '[link href="URL" target="\_blank"]Libellé[/link]' as "link"
+
+
+Exemple :
+
+```
+SELECT commune.nom, ('[link href="https://fr.wikipedia.org/wiki/'::text || lower(commune.nom::text)) || '" target="_blank"]Consulter[/link]'::text AS link FROM sig.commune;
+```
+
+2- Affichage du lien dans les intersections
+
+Une fois le lien construit dans la vue, ajouter une properties dans le fichier "."\vas\rest\conf\cadastreV2\properties.inc"
+
+Exemple :
+```
+$properties["cadastre"]["descr_parcel"]["intersect"]["views"]["nom_schema.nom_vue"]["id_com"] = "Code INSEE"
+$properties["cadastre"]["descr_parcel"]["intersect"]["views"]["nom_schema.nom_vue"]["nom"] = "Nom de la commne"
+$properties["cadastre"]["descr_parcel"]["intersect"]["views"]["nom_schema.nom_vue"]["link"] = "Lien vers Wikipédia"
+$properties["cadastre"]["descr_parcel"]["intersect"]["views"]["nom_schema.nom_vue"]["intersect"] = "Surface intersecté";
+```
+Le rendu suivant est obtenu :
+
+![](../images/fiche_descriptive_lien.jpg)
+
 
 #### cadastre.descr_parcel.intersect.tolerance
 Surface minimum à partir de laquelle une intersection est prise en compte (en %).
