@@ -27,7 +27,7 @@ Fonctionne avec une ou plusieurs vues et/ou une ou plusieurs tables.
 
 Si ces informations sont mal renseignées, la fiche descriptive d'une parcelle peut ne pas se générer correctement.
 
-** Exemple de personnalisation d'une intersection comprenant un lien href :**
+**Exemple de personnalisation d'une intersection comprenant un lien href :**
 
 1- Construction du lien dans une vue de postgresql
 
