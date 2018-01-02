@@ -75,7 +75,7 @@ l'enregistrement sélectionné.
 #### 3.1.3. Formulaire de mise à jour de l’objet métier (update)
 
 Utilisable par les personnes ayant des **droits de mise à jour** sur la
-table liée, il permet de mettre à jour les arguments de l'enregistrement
+table liée, il permet de mettre à jour les attributs de l'enregistrement
 en édition.
 
 ![](../../images/formulaire_update.png)
