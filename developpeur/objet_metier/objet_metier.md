@@ -202,4 +202,4 @@ type d'attribut.
 
 Pour comprendre comment utiliser le studio consulter le
 document [Cas concrets d'utilisation du studio dans
-vMap](cas_utilisation_studio.md)
+vMap](cas_utilisation_studio.html)
