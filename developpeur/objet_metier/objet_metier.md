@@ -75,7 +75,7 @@ l'enregistrement sélectionné.
 #### 3.1.3. Formulaire de mise à jour de l’objet métier (update)
 
 Utilisable par les personnes ayant des **droits de mise à jour** sur la
-table liée, il permet de mettre à jour les arguments de l'enregistrement
+table liée, il permet de mettre à jour les attributs de l'enregistrement
 en édition.
 
 ![](../../images/formulaire_update.png)
@@ -90,8 +90,7 @@ permet à l'utilisateur de créer un objet et de renseigner ses attributs.
 
 ### 3.2 Studio
 
-Afin d'administrer ces formulaires pouvant être très complexes, un
-studio a été developpé pour gérer graphiquement les différents
+Un studio a été developpé pour gérer graphiquement les différents
 formulaires des objets métier.
 
 Le studio est accessible via la section Formulaire après avoir édité un
@@ -203,4 +202,4 @@ type d'attribut.
 
 Pour comprendre comment utiliser le studio consulter le
 document [Cas concrets d'utilisation du studio dans
-vMap](cas_utilisation_studio.html)
+vMap](cas_utilisation_studio.md)

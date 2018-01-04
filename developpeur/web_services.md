@@ -585,7 +585,7 @@ requête http.
 ##### 3.2.2.1 Inclusions des fichiers
 
 ``` php
-require_once 'Vmap.class.inc';
+require_once 'CustomWS.class.inc';
 require_once 'Ville.class.inc';
 require_once __DIR__ . '/../../class/vitis_lib/Connection.class.inc';
 require_once __DIR__ . '/../../class/vmlib/BdDataAccess.inc';

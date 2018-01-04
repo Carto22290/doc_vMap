@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Documentation de vmap Manuel Utilisateur
+Documentation de vMap Manuel Utilisateur
 ====================================
 vMap est une application de webmaping permettant l'affichage de cartes géographiques sur un navigateur.
 
@@ -30,6 +30,12 @@ vMap est une application de webmaping permettant l'affichage de cartes géograph
    :maxdepth: 2
 
    administration/index.rst
+
+
+.. toctree::
+   :maxdepth: 2
+
+   modules/index.rst
 
 
 .. toctree::
