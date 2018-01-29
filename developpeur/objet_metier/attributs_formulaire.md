@@ -179,7 +179,7 @@ La boîte à cocher "Uniquement en consultation" indique si le document est uniq
 
  Un unique fichier peut être associé à un attribut. Il faut donc compresser les documents en un unique fichier zip pour pouvoir les associer à un même attribut. 
 
-Obtenir un [exemple d'insertion d'attribut de type Document](cas_utilisation.html#5-personnalisation-dun-formulaire-insertion-dun-champ-de-chargement-de-documentimage)
+Obtenir un [exemple d'insertion d'attribut de type Document](cas_utilisation.html#5personnalisation-dun-formulaire-insertion-dun-champ-de-chargement-de-documentimage)
 
 ### 2.11. Image Objet métier
 
@@ -193,7 +193,7 @@ La boîte à cocher "Uniquement en consultation" indique si l'image est uniqueme
 
 Un unique fichier peut être associé à un attribut. Il faut donc compresser les images en un unique fichier zip pour pouvoir les associer à un même attribut. 
 
-Obtenir un [exemple d'insertion d'attribut de type Document/image](cas_utilisation.html#5-personnalisation-dun-formulaire--insertion-dun-champ-de-chargement-de-documentimage)
+Obtenir un [exemple d'insertion d'attribut de type Document/image](cas_utilisation.html#5personnalisation-dun-formulaire--insertion-dun-champ-de-chargement-de-documentimage)
 
 ### 2.12. Décimal
 Nommer l'attribut et le libellé qui seront affichés dans le formulaire et définir la valeur par défaut. Définir si ce paramètre est obligatoire ou pas en cochant la case Requis. 
