@@ -193,7 +193,7 @@ La boîte à cocher "Uniquement en consultation" indique si l'image est uniqueme
 
 Un unique fichier peut être associé à un attribut. Il faut donc compresser les images en un unique fichier zip pour pouvoir les associer à un même attribut. 
 
-Obtenir un [exemple d'insertion d'attribut de type Document/image](cas_utilisation.md#5-personnalisation-dun-formulaire--insertion-dun-champ-de-chargement-de-documentimage)
+Obtenir un [exemple d'insertion d'attribut de type Document/image](cas_utilisation.html#5-personnalisation-dun-formulaire--insertion-dun-champ-de-chargement-de-documentimage)
 
 ### 2.12. Décimal
 Nommer l'attribut et le libellé qui seront affichés dans le formulaire et définir la valeur par défaut. Définir si ce paramètre est obligatoire ou pas en cochant la case Requis. 
@@ -214,7 +214,7 @@ Nommer le paramètre et le libellé à afficher, puis sélectionner l'objet mét
 
 ![](../../images/exemple_studio_grille_2.png)
 
-Obtenir un  [exemple d'insertion d'attribut de type grille objet métier](cas_utilisation.md#6-personnalisation-dun-formulaire--insertion-dune-grille-de-sous-objets)
+Obtenir un  [exemple d'insertion d'attribut de type grille objet métier](cas_utilisation.html#6-personnalisation-dun-formulaire--insertion-dune-grille-de-sous-objets)
 
 
 ### 2.16. Grille section vitis
@@ -246,7 +246,7 @@ Définir ensuite les paramètres du lien :
 -   Cible : si laissé vide, la page s'ouvre dans un nouvel onglet.
 -   Valeur : adresse du lien
 
-Obtenir un [exemple d'insertion d'attribut de type lien](cas_utilisation.md#2-personnalisation-dun-formulaire--insertion-dun-attribut-de-type-lien)
+Obtenir un [exemple d'insertion d'attribut de type lien](cas_utilisation.html#2-personnalisation-dun-formulaire--insertion-dun-attribut-de-type-lien)
 
 
 ### 2.23. Liste
@@ -271,7 +271,7 @@ Une liste double permet d'afficher dans un formulaire les éléments d'une liste
 
 Un attribut de type liste déroulante permet d'afficher la liste de choix sous forme de liste déroulante. 
 
-Obtenir un [exemple d'insertion d'attribut de type liste](cas_utilisation.md#utilisation-du-gestionnaire-de-source-de-donnees-insertion-d-une-liste-deroulante)
+Obtenir un [exemple d'insertion d'attribut de type liste](cas_utilisation.html#utilisation-du-gestionnaire-de-source-de-donnees-insertion-d-une-liste-deroulante)
 
 
 ### 2.24. Texte
