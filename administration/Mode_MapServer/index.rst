@@ -1,5 +1,5 @@
-Mode MapServer de vMap
-=======================
+Mode MapServer de vMap : publication de flux WMS avec MapServer
+====================================================================
 
 Le mode MapServer permet la publication de flux WMS avec MapServer. 
 
