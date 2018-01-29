@@ -179,7 +179,7 @@ La boîte à cocher "Uniquement en consultation" indique si le document est uniq
 
  Un unique fichier peut être associé à un attribut. Il faut donc compresser les documents en un unique fichier zip pour pouvoir les associer à un même attribut. 
 
-Obtenir un [exemple d'insertion d'attribut de type Document](cas_utilisation.md#5-personnalisation-dun-formulaire-insertion-dun-champ-de-chargement-de-documentimage)
+Obtenir un [exemple d'insertion d'attribut de type Document](cas_utilisation.html#5-personnalisation-dun-formulaire-insertion-dun-champ-de-chargement-de-documentimage)
 
 ### 2.11. Image Objet métier
 
