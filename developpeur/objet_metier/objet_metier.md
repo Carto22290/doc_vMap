@@ -28,24 +28,30 @@ La création d’un objet métier s’opère en deux temps :
 
 Renseigner les champs suivants :
 
--   Titre : nom de l’objet métier tel qu’il apparaîtra dans le requêteur
+-   **Titre :** nom de l’objet métier tel qu’il apparaîtra dans le requêteur
     et dans le formulaire de création d’objet
 
 ![](../../images/lampe_requeteur.png)
 
 ![création d'objet](../../images/lampe_creation.png)
 
--   Champs id : champ identifiant de la table.
--   Base de données : nom de la base de données à laquelle se connecter
--   Schéma : schéma de la base de données
--   Table : table de la base de données
--   SQL Summary : requête SQL pour définir les champs à afficher dans
+-   **Titre des formulaires :** le titre qui va apparaître dans les formulaires,
+vous pouvez y intégrer le résultat d'un des attributs du formulaire en le
+mettant entre accolades (ex: Commune n°{{id_com}})
+-   **Titre des infobulles :** le titre qui va apparaître dans les infobulles,
+vous pouvez y intégrer le résultat d'un des attributs de la requête SQL Summary
+ en le mettant entre accolades (ex: Commune n°{{ID commune}})
+-   **Champs id :** champ identifiant de la table.
+-   **Base de données :** nom de la base de données à laquelle se connecter
+-   **Schéma :** schéma de la base de données
+-   **Table :** table de la base de données
+-   **SQL Summary :** requête SQL pour définir les champs à afficher dans
     l’infobulle d’un objet :
 
 ![](../../images/infobulle.png)
 
--   SQL List : requête SQL pour définir les champs à afficher dans la
-    liste des objets sélectionnés du requêteur :
+-   **SQL List :** requête SQL pour définir les champs à afficher dans la
+    liste des objets sélectionnés du requêteur
 
 ![](../../images/liste_requeteur.png)
 
