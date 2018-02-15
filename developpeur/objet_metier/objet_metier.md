@@ -46,12 +46,15 @@ vous pouvez y intégrer le résultat d'un des attributs de la requête SQL Summa
 -   **Schéma :** schéma de la base de données
 -   **Table :** table de la base de données
 -   **SQL Summary :** requête SQL pour définir les champs à afficher dans
-    l’infobulle d’un objet :
+    l’infobulle d’un objet, il est possible depuis la version 2018.01
+d'intégrer des liens et des images en utilisant les balises HTML `<a>` et `<img>`
 
 ![](../../images/infobulle.png)
 
 -   **SQL List :** requête SQL pour définir les champs à afficher dans la
-    liste des objets sélectionnés du requêteur
+    liste des objets sélectionnés du requêteur, il est possible depuis la
+version 2018.01 d'intégrer des liens et des images en utilisant les balises
+HTML `<a>` et `<img>`
 
 ![](../../images/liste_requeteur.png)
 
